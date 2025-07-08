@@ -3,6 +3,7 @@ html{
     margin: 0;
     padding: 0;
 }
+
 /*de esta manera se crea una clase en CSS*/
 .fondo{
     background-color: black;
@@ -27,6 +28,23 @@ html{
 .logo{
     width: 200px;
 }
+.tarjetas{
+    border: 3px solid azure;
+    width: fit-content;
+    padding: 2px 2px 2px 2px;
+    margin: auto;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+.tarjetas:hover{
+    background-color:rgba(119, 225, 255, 0.498);
+    backdrop-filter: blur(3px);
+}
+.horizontal{
+    display: flex;
+}
+
+
 /*de esta manera se crea un id en CSS*/
 #principal{
     font-size: 3em;
@@ -39,9 +57,7 @@ html{
     margin: auto;
     padding: 1em;
 }
-.tarjetas{
 
-}
 /* 
 .fondo {
     background-color: red;
