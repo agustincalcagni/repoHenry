@@ -22,11 +22,14 @@ html{
 .p{
     font-size: medium;
     color: azure;
-    text-align: justify;
+    text-align:center;
+}
+.logo{
+    width: 200px;
 }
 /*de esta manera se crea un id en CSS*/
 #principal{
-    font-size: 4em;
+    font-size: 3em;
     text-align: center;
 }
 #titulos{
@@ -34,6 +37,10 @@ html{
     /* vw: viewport width */
     width: 60vw;
     margin: auto;
+    padding: 1em;
+}
+.tarjetas{
+
 }
 /* 
 .fondo {
