@@ -29,7 +29,7 @@ html{
     width: 200px;
 }
 .tarjetas{
-    border: 3px solid azure;
+    border: 3px solid rgba(0, 93, 136, 0.783);
     width: fit-content;
     padding: 2px 2px 2px 2px;
     margin: auto;
@@ -47,18 +47,20 @@ html{
 
 /*de esta manera se crea un id en CSS*/
 #principal{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style:italic;
     font-size: 3em;
     text-align: center;
 }
 #titulos{
-    border: 1px solid azure;
+    border: 1px solid rgba(255, 234, 0, 0.932);
     /* vw: viewport width */
     width: 60vw;
     margin: auto;
     padding: 1em;
 }
 #parrafos{
-    border: 1px solid azure;
+    border: 1px solid rgba(255, 234, 0, 0.932);
     /* vw: viewport width */
     width: 60vw;
     margin: auto;
