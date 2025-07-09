@@ -21,7 +21,7 @@ html{
     text-align: center;
 }
 .p{
-    font-size: medium;
+    font-size:larger;
     color: azure;
     text-align:center;
 }
@@ -51,13 +51,20 @@ html{
     text-align: center;
 }
 #titulos{
-    border: 3px solid azure;
+    border: 1px solid azure;
     /* vw: viewport width */
     width: 60vw;
     margin: auto;
     padding: 1em;
 }
-
+#parrafos{
+    border: 1px solid azure;
+    /* vw: viewport width */
+    width: 60vw;
+    margin: auto;
+    padding: 1em;
+    text-align: left ;
+}
 /* 
 .fondo {
     background-color: red;
