@@ -26,10 +26,15 @@ html{
     text-align:center;
 }
 .logo{
-    width: 200px;
+    font-size:larger;
+    color: azure;
+    text-align:center;
+    width: 150px;
+    margin: 1.5em;
+    margin-top: 1.5em;
 }
 .tarjetas{
-    border: 3px solid rgba(0, 93, 136, 0.783);
+    border: 5px double aquamarine;
     width: fit-content;
     padding: 2px 2px 2px 2px;
     margin: auto;
@@ -37,17 +42,26 @@ html{
     transition: 0.5s;
 }
 .tarjetas:hover{
-    background-color:rgba(119, 225, 255, 0.498);
+    background-color:rgba(113, 113, 113, 0.306);
     backdrop-filter: blur(3px);
 }
-.horizontal{
+#contenedor-tarjetas{
+    backdrop-filter: blur(3px);
+    background-color: rgba(0, 0, 0, 0.319);
+    width: 85vw;
+    margin: auto;
+    margin-top: 1.5em;
+    border-radius: 50px;
+    border-style: groove;
+    border-color: aquamarine;
+    padding: 2em;
     display: flex;
+    justify-content: flex-start;
 }
-
 
 /*de esta manera se crea un id en CSS*/
 #principal{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Verdana, sans-serif;
     font-style:italic;
     font-size: 3em;
     text-align: center;
@@ -66,7 +80,7 @@ html{
     transition: 0.5s;
 }
 #parrafos{
-    border: 1px solid rgba(255, 234, 0, 0.932);
+    border: 5px double rgba(255, 234, 0, 0.932);
     /* vw: viewport width */
     width: 60vw;
     margin: auto;
