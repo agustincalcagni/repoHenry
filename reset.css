@@ -30,3 +30,11 @@ a{
     text-decoration: none; /* Elimina el subrayado predeterminado de los enlcaes */
     color: inherit; /* Heredar el color de texto del elemento padre */
 }
+
+/* Establecer estilos básicos para las imágenes */
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* Se pueden agregar más estilos según las necesidades */
