@@ -53,11 +53,17 @@ html{
     text-align: center;
 }
 #titulos{
-    border: 1px solid rgba(255, 234, 0, 0.932);
+    border: 10px solid rgba(187, 173, 13, 0.795);
+    border-style:ridge;
     /* vw: viewport width */
     width: 60vw;
     margin: auto;
-    padding: 1em;
+    padding: 0.5em;
+}
+#titulos:hover{
+    background-color:rgba(115, 44, 0, 0.507);
+    backdrop-filter: blur(3px);
+    transition: 0.5s;
 }
 #parrafos{
     border: 1px solid rgba(255, 234, 0, 0.932);
